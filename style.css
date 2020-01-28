@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box-model1{
+    border: 1px solid black;
+    background-color: blue;
+    height: 80px;
+    display: flex;
+}
+.box-model{
+    border: 1px solid black;
+}
+.box-1{
+    border: 1px solid black;
+    background-color: white;
+    width: 10%;
+    margin: 2px;
+    text-align: center;
+    padding-top: 14px;
+}
+.box-2{
+    text-align: center;
+    width: 88%;
+    padding-top: 20px;
+}
+.box-3{
+    height: 30px;
+    background-color: greenyellow;
+}
+.box-4{
+    background-color: yellow;
+    height: 140px;
+}
+.flexmethod{
+    display: flex;
+    justify-content: center;
+}
+.box-5, .box-6, .box-7{ 
+    flex: 1;
+    border: 1px solid black;
+    height: 120px;
+    justify-content: center;
+}
+.box-5{
+    background-color: salmon;
+}
+.box-6{
+    margin-left: 11px;
+    background-color: rgb(87, 189, 20);
+}
+.box-7{
+    margin-left: 11px;
+    background-color: rgb(55, 154, 201);
+}
+.fivthrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-8{
+    flex: 2;
+    border: 1px solid black;
+    background-color: orangered;
+    height: 150px;
+    
+}
+.box-9{
+    flex: 1;
+    border: 1px solid red;
+    background-color: fuchsia;
+    color: white;
+    margin-left: 15px;
+    height: 150px; 
+}
+.box-10{
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    background-color: rgb(77, 155, 219);
+    padding-top: 12px;
+    height: 50px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 700px) {
+    .flexmethod{
+      width: 100%;
+      display: block;
+
+    }
+    .box-5, .box-6, .box-7{
+        background-color: grey;
+        margin: 5px 0;
+    }
+    .fivthrow{
+        width: 100%;
+        display: block;
+    }
+    .box-9{
+       margin: 5px 0; 
+    }
+    .box-1{
+        width: 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
